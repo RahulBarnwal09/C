@@ -1,3 +1,4 @@
+//Code to print numbers from 10 to 20 using while loop but the initialization should be from 0
 #include<stdio.h>
 int main()
 {
