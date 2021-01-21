@@ -5,7 +5,7 @@ int main()
     {
         printf("The value of a is %d\n",a);
     }
-    for(int i=5;i;i--)//This is also correct. This loop will run until the value of a is positive i.e. till i=1
+    for(int i=5;i;i--)//This is correct. This loop will run until the value of a is positive i.e. till i=1. No need to give i<=1.
     {
         printf("The value of i is %d\n",i);
     }
