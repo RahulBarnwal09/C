@@ -8,9 +8,9 @@ int main()
     return 0;
 }
 
-int sum(int a, int b)
+int sum(int a, int b)//int a and int b are called the parameters of the function
 {
     int result;
     result=a*b;
-    return result;
+    return result;//This is used for returning the value
 }
