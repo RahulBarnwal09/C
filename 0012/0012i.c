@@ -3,7 +3,7 @@ int sum(int a, int b);
 int main()
 {
     int c;
-    c=sum(2,5);
+    c=sum(2,5);//Here, 2 and 5 are arguments
     printf("The value of c is %d\n",c);
     return 0;
 }
