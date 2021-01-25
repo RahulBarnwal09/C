@@ -22,7 +22,7 @@ void wrong_swap(int a, int b)
 void correct_swap(int *a, int *b)
 {
     int temp;
-    temp=*a;//Used to point address
+    temp=*a;
     *a=*b;
     *b=temp;
 }
