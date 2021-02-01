@@ -11,5 +11,5 @@ int main()
     {
         printf("The marks of Student %d is %d\n",i+1,marks[i]);
     }
-
+//Each value in array generally takes 4 bytes(for integer data type), 1 byte (for char data type) etc. but it varies compiler to compiler.
 }
