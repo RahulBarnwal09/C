@@ -12,7 +12,7 @@ void main()
     }
     for(int i=0;i<b;i++)
     {
-        printf("%d \n",a[i]);
+        printf("%d ",a[i]);
     }
     printf("Enter the position where to delete: ");
     scanf("%d",&c);
