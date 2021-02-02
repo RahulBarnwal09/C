@@ -1,7 +1,7 @@
 #include<stdio.h>
 void reverse(int *ptr, int n)
 {   int temp;
-    for(int i=0;i<(n/2);i++)
+    for(int i=0;i<(n/2);i++)//here we have taken the counter till n/2. otherwise the same array will be printed as the counter will go to middle element to reverse and then again it will move forward to re-reverse it. Thus giving same array
     {
         temp=ptr[i];
         ptr[i]=ptr[n-i-1];
